@@ -18,7 +18,7 @@ class EnterPortItem(scrapy.Item):
 class LeavePortItem(scrapy.Item):
     #航班号
     flight_num = scrapy.Field()
-    #始发地
+    #目的地
     destination = scrapy.Field()
     #接机楼
     terminal = scrapy.Field()

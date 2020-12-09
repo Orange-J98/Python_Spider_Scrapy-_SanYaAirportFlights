@@ -9,7 +9,7 @@ def doSth():
     p=subprocess.Popen(cmd)
 
 # 想几点更新,定时到几点
-def time_ti(h=14, m=47):
+def time_ti(h=0, m=0):
     while True:
         now = datetime.datetime.now()
         if now.hour == h and now.minute == m:
